@@ -50,7 +50,7 @@ exports[`<Cards /> should match snapshot <Cards /> 1`] = `
         <i
           className="fas fa-wind"
         />
-        Wind Speed: 
+        Wind: 
         4.21
         km/h
       </div>

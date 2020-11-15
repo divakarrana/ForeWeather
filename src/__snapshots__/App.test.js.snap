@@ -28,8 +28,13 @@ exports[`<App /> should match snapshot <App /> 1`] = `
   <div
     className="container"
   >
-    <div>
-      Loading...
+    <div
+      className="loading"
+    >
+      Gathering weather data... 
+      <i
+        className="fas fa-cog"
+      />
     </div>
   </div>
 </div>
