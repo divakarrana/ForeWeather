@@ -16,7 +16,7 @@ function App() {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': 'http://api.openweathermap.org'
+        'Access-Control-Allow-Origin': '*'
       }})
       .then((response) => response.json())  
       .then((data) => setweatherData(filterDays(data.list)))
