@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should match snapshot <Header /> 1`] = `
+<div
+  className="Header"
+>
+  <div
+    className="logoBox"
+  >
+    <i
+      className="fas fa-smog"
+    />
+  </div>
+  <h1
+    className="appHeading"
+  >
+    Fore-Weather  
+    <span
+      className="subHeading"
+    >
+      5 day weather forecast for Mumbai
+    </span>
+  </h1>
+</div>
+`;

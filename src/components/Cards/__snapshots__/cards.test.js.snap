@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cards /> should match snapshot <Cards /> 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="card"
+    data-testid="card"
+  >
+    <div
+      className="cardHead"
+    >
+      <div
+        className="cardHeadTemp"
+      >
+        31.37
+        °
+      </div>
+      <div
+        className="cardHeadDate"
+      >
+        Sun Nov 15 2020
+      </div>
+      <div
+        className="cardHeadHumidity"
+      >
+        <i
+          className="fas fa-tint"
+        />
+        53
+        % Humid
+      </div>
+    </div>
+    <div
+      className="cardContent"
+    >
+      <div
+        className="weatherStats"
+      >
+        <i
+          className="fas fa-cloud-sun"
+        />
+        Weather: 
+        Clouds
+      </div>
+      <div
+        className="windStats"
+      >
+        <i
+          className="fas fa-wind"
+        />
+        Wind Speed: 
+        4.21
+        km/h
+      </div>
+      <div
+        className="pop"
+      >
+        <i
+          className="fas fa-cloud-rain"
+        />
+        Precipitation: 
+        0
+        %
+      </div>
+      <div
+        className="pop"
+      >
+        <i
+          className="fas fa-tachometer-alt"
+        />
+        Pressure: 
+        1011
+        hPa
+      </div>
+    </div>
+  </div>
+</div>
+`;
