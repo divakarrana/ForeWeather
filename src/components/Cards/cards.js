@@ -4,7 +4,7 @@ import styles from './cards.module.css';
 const cards = (props) => {
 
     //Waiting for the API response
-    let allCards = (<div></div>);
+    let allCards = (<div className={styles.loading}>Gathering weather data... <i className="fas fa-cog"></i></div>);
 
     //Successful API response results
     if(props.weatherData){

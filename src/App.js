@@ -12,12 +12,9 @@ function App() {
 
   //`http://api.openweathermap.org/data/2.5/forecast?id=1275339&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
   useEffect(() => {
-    fetch("http://api.openweathermap.org/data/2.5/forecast?id=1275339&units=metric&appid=9036dc16bb6dfe2627295993204fcdca", {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*'
-      }})
+    const cors = 'https://cors-anywhere.herokuapp.com/';
+    const url = 'http://api.openweathermap.org/data/2.5/forecast?id=1275339&units=metric&appid=9036dc16bb6dfe2627295993204fcdca';
+    fetch(`${cors}${url}`)
       .then((response) => response.json())  
       .then((data) => setweatherData(filterDays(data.list)))
       .catch((error) => console.log(error.message));

@@ -6,6 +6,20 @@
   margin-top: 4rem;
 }
 
+/* Loader */
+.loading {
+  color: var(--color-grey-light-1);
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading i {
+  animation: rotate 1s infinite;
+}
 /* OVERALL CARD CSS */
 .card {
   color: var(--color-grey-light-1);
@@ -74,4 +88,14 @@
 
 .cardContent i {
   margin-right: 1rem;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
 }
