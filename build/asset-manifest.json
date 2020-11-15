@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.212f951e.chunk.css",
+    "main.js": "/static/js/main.d772ab0e.chunk.js",
+    "main.js.map": "/static/js/main.d772ab0e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b93daaa1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b93daaa1.js.map",
+    "static/js/2.31f1a440.chunk.js": "/static/js/2.31f1a440.chunk.js",
+    "static/js/2.31f1a440.chunk.js.map": "/static/js/2.31f1a440.chunk.js.map",
+    "static/js/3.e9b6e674.chunk.js": "/static/js/3.e9b6e674.chunk.js",
+    "static/js/3.e9b6e674.chunk.js.map": "/static/js/3.e9b6e674.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.212f951e.chunk.css.map": "/static/css/main.212f951e.chunk.css.map",
+    "static/js/2.31f1a440.chunk.js.LICENSE.txt": "/static/js/2.31f1a440.chunk.js.LICENSE.txt",
+    "static/media/cards.module.css": "/static/media/weather-night-min.c3023fdf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b93daaa1.js",
+    "static/js/2.31f1a440.chunk.js",
+    "static/css/main.212f951e.chunk.css",
+    "static/js/main.d772ab0e.chunk.js"
+  ]
+}
