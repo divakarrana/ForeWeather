@@ -28,6 +28,7 @@ Follow below mentioned steps to TEST this application
 
 1. Run `npm test`
 2. Launches the test runner in the interactive watch mode.
+3. Hit `a` to run all implemented tests.
 
 ## Currently deployed on
 
