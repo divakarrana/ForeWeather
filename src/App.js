@@ -9,8 +9,10 @@ function App() {
   const [weatherData, setweatherData] = useState();
 
   //Fetching weather data from API and mapping to state
+
+  //`http://api.openweathermap.org/data/2.5/forecast?id=1275339&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`
   useEffect(() => {
-    fetch(`http://api.openweathermap.org/data/2.5/forecast?id=1275339&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`)
+    fetch(`http://api.openweathermap.org/data/2.5/forecast?id=1275339&units=metric&appid=9036dc16bb6dfe2627295993204fcdca`)
       .then((response) => response.json())  
       .then((data) => setweatherData(filterDays(data.list)))
       .catch((error) => console.log(error.message));
