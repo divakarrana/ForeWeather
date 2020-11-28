@@ -1,0 +1,31 @@
+.label {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem 2rem;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  color: #fff;
+  margin: 1rem 2rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  cursor: pointer;
+  padding: 1rem;
+  box-shadow: var(--shadow-dark);
+}
+
+.btn:active {
+  outline: none;
+}
+
+.cityContainer {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

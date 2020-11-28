@@ -7,7 +7,11 @@ const cards = (props) => {
     let allCards = (<div className={styles.loading}>Gathering weather data... <i className="fas fa-cog"></i></div>);
 
     //Successful API response results
-    if(props.weatherData){
+    if(props.weatherData === 'No Data'){
+        allCards = (<div className={styles.loading}>Please check your city name and try again!...</div>);
+    }
+
+    else if(props.weatherData){
         allCards = props.weatherData.map( dayWeather => {
 
             //Formatting date 

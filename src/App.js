@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 
 import Header from './components/Header/header';
 import Cards from './components/Cards/cards';
+import City from './components/City/city';
 
 
 function App() {
@@ -31,10 +32,27 @@ function App() {
     });
   }
 
+  //Make API request for city
+  const cityWeather = (city) => {
+    setweatherData(false);
+    const cors = 'https://cors-anywhere.herokuapp.com/';
+    const url = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${process.env.REACT_APP_WEATHER_API_KEY}`;
+    fetch(`${cors}${url}`)
+      .then(
+        (response) => response.json())  
+      .then(
+        (data) => setweatherData(filterDays(data.list)))
+      .catch((error) => {
+        console.log("Please check your city name and try again!");
+        setweatherData('No Data');
+      });
+  }
+
   //Rendering root component and children
   return (
     <div className="App">
       <Header></Header>
+      <City searchCityWeather={cityWeather}></City>
       <Cards weatherData={weatherData}></Cards>
     </div>
      
