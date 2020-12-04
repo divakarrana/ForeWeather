@@ -2,7 +2,7 @@
 
 ## Intro
 
-ForeWeather is a web application that fetches 5 day weather forecast of Mumbai city in India ⛈️
+ForeWeather is a web application that fetches 5 day weather forecast for any city Globally.⛈️
 
 ## How to RUN this application
 
